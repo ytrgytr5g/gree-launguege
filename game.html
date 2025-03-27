@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Παιχνίδι Ελληνικής Γραμματικής</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="question-container">
+            <h1 id="question">Ερώτηση</h1>
+            <div id="answers">
+                <button class="answer-btn">Απάντηση 1</button>
+                <button class="answer-btn">Απάντηση 2</button>
+                <button class="answer-btn">Απάντηση 3</button>
+                <button class="answer-btn">Απάντηση 4</button>
+            </div>
+        </div>
+
+        <div id="avatar-container">
+            <!-- Εδώ θα φορτώσει το 3D Avatar -->
+        </div>
+
+        <div id="score-container">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
